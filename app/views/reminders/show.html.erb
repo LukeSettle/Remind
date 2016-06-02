@@ -1,0 +1,9 @@
+<p>email: <%= @reminder.email %></p>
+<p>phone_number: <%= @reminder.phone_number %></p>
+<p>message: <%= @reminder.message %></p>
+<p>frequency: <%= @reminder.frequency %></p>
+<p>time of reminder: <%= @reminder.time_of_reminder %></p>
+<%= simple_form_for @reminder do |f| %>
+  <%= f.input :completed %>
+  <%= f.button :submit %>
+<% end %>

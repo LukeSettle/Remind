@@ -1,0 +1,8 @@
+<%= simple_form_for @reminder do |f| %>
+  <%= f.input :email %>
+  <%= f.input :phone_number %>
+  <%= f.input :message %>
+  <%= f.input :frequency, collection: ['daily', 'weekly', 'monthly', 'yearly'] %>
+  <%= f.input :time_of_reminder %>
+  <%= f.button :submit %>
+<% end %>

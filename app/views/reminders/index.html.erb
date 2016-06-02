@@ -1,0 +1,9 @@
+<% @reminders.each do |reminder| %>
+  <%= link_to reminder.message, reminder %>
+  <% if reminder.completed %>
+    <i class="fa fa-check-square-o"></i>
+  <% else %>
+    <i class="fa fa-square-o"></i>
+  <% end %>
+  <hr>
+<% end %>

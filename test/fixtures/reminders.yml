@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  phone_number: MyString
+  message: MyText
+  frequency: MyString
+  time_of_reminder: 2016-06-01 23:33:58
+
+two:
+  email: MyString
+  phone_number: MyString
+  message: MyText
+  frequency: MyString
+  time_of_reminder: 2016-06-01 23:33:58
